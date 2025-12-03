@@ -13,9 +13,6 @@ def check_id(start, finish):
         string_i = str(i)
         if re.search(r'^(\d+)\1+$', string_i):
             total += i
-
-
-
     return total
 
 def read_file(file_path):
